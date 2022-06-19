@@ -1,0 +1,15 @@
+
+
+
+# List of resource files that kustomize reads, modifies
+# and emits as a YAML string
+resources:
+- ./db/roar-db-deploy.yaml
+- ./db/roar-db-svc.yaml
+- ./web/roar-web-deploy.yaml
+- ./web/roar-web-svc.yaml
+
+
+
+
+
