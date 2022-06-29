@@ -11,7 +11,7 @@ spec:
     - name: url
       value: https://github.com/skillrepos/tekton-docker-k8s.git
     - name: revision
-      value: main
+      value: beyond-k8s
   workspaces: 
     - name: output
       persistentVolumeClaim:

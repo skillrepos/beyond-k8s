@@ -10,7 +10,7 @@ spec:
     - name: gitUrl
       value:  https://github.com/skillrepos/tekton-docker-k8s.git
     - name: gitRev
-      value: main
+      value: beyond-k8s
     - name: dbImageUrl
       value: 10.0.2.15:5000/roar-db:1.0.0
     - name: webImageUrl
