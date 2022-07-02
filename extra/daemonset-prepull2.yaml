@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: DaemonSet
 metadata:
-  name: prepull
+  name: prepull2
 spec:
   selector:
     matchLabels:
-      name: prepull 
+      name: prepull2 
   template:
     metadata:
       labels:
-        name: prepull 
+        name: prepull2 
     spec:
       initContainers:
-      - name: prepull 
+      - name: prepull2 
         image: docker
         command: ["/bin/sh", "-c"]
         args:
