@@ -18,6 +18,7 @@ rules:
   - configmaps
   - deployments
   - secrets
+  - namespaces
   verbs:
   - create
   - delete
