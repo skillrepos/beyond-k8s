@@ -1,4 +1,4 @@
-INGRESS_HOST=$(sudo minikube ip)
+
 INGRESS_PORT=$(kubectl -n istio-system get service istio-ingressgateway -o jsonpath='{.spec.ports[?(@.name=="http2")].nodePort}')
 echo $INGRESS_HOST
 echo $INGRESS_PORT
