@@ -28,6 +28,8 @@ echo
 # ref: https://tekton.dev/docs/getting-started/tasks/
 kubectl apply --filename \
 https://storage.googleapis.com/tekton-releases/pipeline/latest/release.yaml
+# ref: https://tekton.dev/docs/dashboard/install/
+kubectl apply --filename https://storage.googleapis.com/tekton-releases/dashboard/latest/tekton-dashboard-release.yaml
 # ref: https://github.com/tektoncd/cli
 curl -LO https://github.com/tektoncd/cli/releases/download/v0.24.0/tektoncd-cli-0.24.0_Linux-64bit.deb
 sudo dpkg -i tektoncd-cli-0.24.0_Linux-64bit.deb

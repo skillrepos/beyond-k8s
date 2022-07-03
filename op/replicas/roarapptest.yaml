@@ -4,6 +4,6 @@ metadata:
   name: roarapp-sample
 spec:
   # Add fields here
-  replicas: 1
+  replicas: 5
   dbImage: quay.io/techupskills/roar-db:v2
   webImage: quay.io/techupskills/roar-web:v1
